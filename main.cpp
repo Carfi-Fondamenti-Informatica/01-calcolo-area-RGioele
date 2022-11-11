@@ -1,16 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
     float a=0, b=0, c=0;
-    cout<<"Inserire il valore di a=";
-    cin>>a;
-
-    cout<<"Inserire il valore di b=";
-    cin>>b;
-
-    cout<<"Inserire il valore di c=";
-    cin>>c;
 
     float area_triangolo;
     area_triangolo=(a*b)/2;

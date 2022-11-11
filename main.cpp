@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+int main() {
     float a=0, b=0, c=0;
     cout<<"Inserire il valore di a=";
     cin>>a;
@@ -27,3 +27,4 @@ using namespace std;
     cout<<"area trapezio="<<area_trapezio<<endl;
     return 0;
 }
+

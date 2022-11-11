@@ -3,6 +3,9 @@ using namespace std;
 
     float a=0, b=0, c=0;
 
+    
+
+
     float area_triangolo;
     area_triangolo=(a*b)/2;
     float area_quadrato;
@@ -12,9 +15,9 @@ using namespace std;
     float area_trapezio;
     area_trapezio=((a+b)*c)/2;
 
-    cout<<"area triangolo="<<area_triangolo<<endl;
-    cout<<"area quadrato="<<area_quadrato<<endl;
-    cout<<"area rettangolo="<<area_rettangolo<<endl;
-    cout<<"area trapezio="<<area_trapezio<<endl;
+    cout<<area_triangolo<<endl;
+    cout<<area_quadrato<<endl;
+    cout<<area_rettangolo<<endl;
+    cout<<area_trapezio<<endl;
     return 0;
 }
